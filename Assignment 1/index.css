@@ -1,0 +1,65 @@
+#body {         
+        background-color: rgb(53, 50, 50);
+        color: white;
+    }
+
+    button {
+        background-color: blue;
+        border-radius: 10px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    button:hover{
+        transform: translateY(-2px) scale(1.1)
+    }
+
+    #title {
+        border-width: 2px;
+        border-color: white;
+
+    }
+
+    #task {
+        border-radius: 8px;
+        height: 25px;
+        width: 200px;
+    }
+
+    .task-buttons {
+        display: flex;
+        gap: 8px;
+    }
+
+    .task-buttons {
+        button {
+            background: none
+        };
+
+        button:hover {
+            transform: scale(1.25);
+        }
+    }
+
+    .task-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 10px;
+        list-style: none;
+    }
+
+    .task-text {
+        min-width: 150px;
+        padding: 2px 8px;
+        border-radius: 4px;
+    }
+
+    #search{
+        border-radius: 8px;
+        height: 25px;
+    }
+    .show-board{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
